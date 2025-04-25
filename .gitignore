@@ -1,0 +1,23 @@
+# OpenCart specific
+/htdocs/system/storage/*
+/htdocs/image/cache/*
+/htdocs/image/catalog/*
+!/htdocs/image/catalog/index.html
+
+# ZIP archives
+*.zip
+
+# Environment
+.env
+
+# Dependencies
+/node_modules
+/vendor
+
+# IDE files
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db 
